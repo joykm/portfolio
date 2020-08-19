@@ -1,2 +1,2 @@
-# kevin-joy-portfolio
+# portfolio
 A website to display personal and school projects
