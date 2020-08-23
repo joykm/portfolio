@@ -1,0 +1,117 @@
+/*
+Navbar Not Toggled
+*/
+.navbar.fixed-top {
+	margin-right: auto;
+  	margin-left: auto;
+  	max-width: 1200px; 
+	background-color: white;
+	padding: 0;
+}
+
+#name {
+	color: #747fe0;
+	margin-left: ..25rem;
+	padding-bottom: 0;
+	padding-top: 0;
+	font-size: 3em;
+}
+
+/*
+Navbar Toggler
+*/
+
+.navbar-toggler.custom {
+	padding-bottom: .75rem;
+	border: none;
+	/*border-bottom: 5px solid rgb(0,0,0,0);*/
+}
+
+.navbar-toggler.custom:hover {
+	color: #747fe0;
+	/*border-bottom: 5px solid #747fe0;*/
+}
+
+
+/*
+Navbar Toggled
+*/
+
+.navbar-collapse {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+	border-bottom: 2px solid #747fe0;
+}
+
+.dropdown-item:focus {
+	background-color: white;
+}
+
+.dropdown-item:hover {
+	background-color: #747fe0;
+	color: white;
+}
+
+/*
+Navbar Scrolled
+*/
+
+.navbar.fixed-top.scrolled .navbar-collapse {
+	border-bottom: none;
+}
+/*.navbar.fixed-top.scrolled .d-flex.navbar {*/
+.navbar.fixed-top.scrolled {
+    border-bottom: 2px solid #747fe0;
+}
+
+
+
+/*.navbar.fixed-top.scrolled #name {
+    color: white;
+}
+
+.navbar.fixed-top.scrolled .dropdown-item {
+    color: white;
+}*/
+
+/*
+Content Body
+*/
+
+.full-body {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8rem;
+  max-width: 1200px; /* or 950px */
+  padding: 0;
+}
+
+/*
+About Me Card
+*/
+
+.card.about-me {
+	border: none;
+}
+
+.card-body.about-me {
+	padding-top: 0px;
+}
+
+.card-title {
+	margin: 1.25rem;
+	font-size: 1.5em;
+/*	color: #747fe0;*/
+}
+
+.contact-info {
+	margin-left: 2rem;
+	margin-right: 2rem;
+
+}
+
+.about-me-data {
+	font-weight: bold;
+}
+
