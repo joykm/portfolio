@@ -7,6 +7,7 @@ Navbar Not Toggled
   	max-width: 1200px; 
 	background-color: white;
 	padding: 0;
+	border-bottom: 2px solid #747fe0;
 }
 
 #name {
@@ -24,6 +25,7 @@ Navbar Toggler
 .navbar-toggler.custom {
 	padding-bottom: .75rem;
 	border: none;
+	color: grey;
 	/*border-bottom: 5px solid rgb(0,0,0,0);*/
 }
 
@@ -44,13 +46,26 @@ Navbar Toggled
 	border-bottom: 2px solid #747fe0;
 }
 
+.dropdown-item {
+	color: grey;
+}
+
 .dropdown-item:focus {
 	background-color: white;
+	color: grey;
 }
 
 .dropdown-item:hover {
-	background-color: #747fe0;
-	color: white;
+	color: #747fe0;
+	background-color: white;
+}
+
+.dropdown-chevron {
+	visibility: hidden;
+}
+
+.dropdown-item:hover .dropdown-chevron {
+	visibility: visible;
 }
 
 /*
@@ -60,19 +75,9 @@ Navbar Scrolled
 .navbar.fixed-top.scrolled .navbar-collapse {
 	border-bottom: none;
 }
-/*.navbar.fixed-top.scrolled .d-flex.navbar {*/
-.navbar.fixed-top.scrolled {
+
+/*.navbar.fixed-top.scrolled {
     border-bottom: 2px solid #747fe0;
-}
-
-
-
-/*.navbar.fixed-top.scrolled #name {
-    color: white;
-}
-
-.navbar.fixed-top.scrolled .dropdown-item {
-    color: white;
 }*/
 
 /*
@@ -115,3 +120,10 @@ About Me Card
 	font-weight: bold;
 }
 
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
