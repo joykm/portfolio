@@ -1,15 +1,20 @@
 <nav class="navbar fixed-top navbar-light bg-faded align-items-end">
-        <a href="#top" class="navbar-brand" id="name">Kevin Joy</a>
-        <button class="d-flex align-items-end navbar-toggler custom" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="dropdown-toggle" >Projects</span>
-        </button>
+        <h5 href="#top" class="navbar-brand" id="name">Kevin Joy</h5>
+        <span>
+            <button class="align-items-end navbar-toggler custom" type="button">
+                <a href="#top" class="contact-me"><span class="dropdown-chevron" data-jam="chevron-right" data-fill="#747fe0"></span>Contact</a>
+            </button>
+            <button class="align-items-end navbar-toggler custom" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="dropdown-toggle" ><span class="dropdown-chevron" data-jam="chevron-right" data-fill="#747fe0"></span>Projects</span>
+            </button>
+        </span>
         </div>
         <div class="navbar-collapse collapse w-100" id="navbarNav">
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item text-right">
                         <a class="dropdown-item" href="#apple-cart"><span class="dropdown-chevron" data-jam="chevron-right" data-fill="#747fe0"></span>Apple Cart</a>
                         <a class="dropdown-item" href="#keto-love"><span class="dropdown-chevron" data-jam="chevron-right" data-fill="#747fe0"></span>Keto Love</a>
-                        <a class="dropdown-item" href="#"><span class="dropdown-chevron" data-jam="chevron-right" data-fill="#747fe0"></span>Other Projects</a>
+                        <a class="dropdown-item" href="#other-projects"><span class="dropdown-chevron" data-jam="chevron-right" data-fill="#747fe0"></span>Other Projects</a>
                 </li>
             </ul>
         </div>
@@ -58,12 +63,15 @@
     </div>
   </div>
 
-    <h5 class="card-title" id="apple-cart">Apple Cart</h5>
+    <br>
+    <br>
+    <h5 class="link-anchor" id="apple-cart"></h5>
+    <h5 class="card-title">Apple Cart</h5>
     <div class="card d-flex w-100" style="width: 18rem;">
         <div id="apple-cart-controls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img class="d-block w-100" src="img/apple-cart/apple-cart-1.png" alt="First slide">
+                <img class="d-block w-100" src="img/apple-cart/apple-cart-1.png" alt="First slide" href="https://workout-table.herokuapp.com">
                 </div>
                 <div class="carousel-item">
                 <img class="d-block w-100" src="img/apple-cart/apple-cart-2.png" alt="Second slide">
@@ -84,15 +92,34 @@
     </div>
     <div class="card-body">
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="https://apple-cart.herokuapp.com/login" target="_blank">Apple Cart</a>
-        <a href="https://github.com/joykm88/apple-cart" target="_blank">GitHub</a>
+        <a href="https://workout-table.herokuapp.com" target="_blank">Workout Table</a>
+        <a href="https://github.com/joykm88/workout-table" target="_blank">Source Code</a>
     </div>
 
     <br>
     <br>
-    <br>
+    <h5 class="link-anchor" id="workout-table"></h5>
+    <h5 class="card-title">Workout Table</h5>
+    <div class="card d-flex w-100" style="width: 18rem;">
+        <div id="workout-table" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="img/workout-table/workout-table-1.png" alt="First slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="https://keto-love.herokuapp.com/" class="btn btn-primary" target="_blank">Keto Love</a>
+        <a href="https://github.com/joykm88/keto-love" class="btn btn-primary" target="_blank">Source Code</a>
 
-    <h5 class="card-title" id="keto-love">Keto Love</h5>
+    </div>
+
+    <br>
+    <br>
+    <h5 class="link-anchor" id="keto-love"></h5>
+    <h5 class="card-title">Keto Love</h5>
     <div class="card d-flex w-100" style="width: 18rem;">
         <div id="keto-love-controls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -119,11 +146,267 @@
     <div class="card-body">
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="https://keto-love.herokuapp.com/" class="btn btn-primary" target="_blank">Keto Love</a>
-        <a href="https://github.com/joykm88/keto-love" class="btn btn-primary" target="_blank">GitHub</a>
+        <a href="https://github.com/joykm88/keto-love" class="btn btn-primary" target="_blank">Source Code</a>
 
     </div>
 
+    <br>
+    <br>
+    <h5 class="link-anchor" id="other-projects"></h5>
+    <h5 class="card-title">Other Projects</h5>
+    <div class="card d-flex w-100" style="width: 18rem;">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">Project</th>
+                <th scope="col">Description</th>
+                <th scope="col">Source Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">1</th>
+                <td>Hash Map</td>
+                <td>Full implementation of a Hash Map in Python</td>
+                <td><a href="https://github.com/joykm88/hash-map" target="_blank">github.com/joykm88/hash-map</a></td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>Text Adventure</td>
+                <td>Multi file text adventure in C++</td>
+                <td><a href="https://github.com/joykm88/text-adventure" target="_blank">github.com/joykm88/text-adventure</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
+
+
+    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>
     <br>
     <br>
     <br>    <br>
