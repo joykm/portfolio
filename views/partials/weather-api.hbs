@@ -1,0 +1,72 @@
+<h5 class="link-anchor" id="dom-manipulation"></h5>
+<h5 class="card-title">Weather API</h5>
+<div class="card weather-api d-flex w-100">
+	
+	<form id="api-city">
+		<div class="form-row align-items-center justify-content-center">
+			<div class="col-auto weather-api-form-element">
+				<label class="sr-only" for="inlineFormInput">city</label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<div class="input-group-text">
+							city
+						</div>
+					</div>
+					<input type="text" class="form-control" pattern="[a-zA-Z]+" id="city" placeholder="city" required>
+				</div>
+			</div>
+			<div class="col-auto weather-api-form-element">
+				<label class="sr-only" for="inlineFormInputGroup">country code</label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<div class="input-group-text">
+							<a href="https://www.nationsonline.org/oneworld/country_code_list.htm" target="_blank">Country Codes</a>
+						</div>
+						<input type="text" class="form-control" pattern="[a-zA-Z]+" id="countryCity" placeholder="country code" required>
+					</div>
+				</div>
+			</div>
+			<div class="col-auto weather-api-form-element">
+				<button type="submit" class="btn btn-primary" id="citySubmit">Submit</button>
+			</div>
+		</div>
+	</form>
+
+	<form id="api-zip">
+		<div class="form-row align-items-center justify-content-center">
+			<div class="col-auto weather-api-form-element">
+				<label class="sr-only" for="inlineFormInput">zip</label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<div class="input-group-text">
+							zip
+						</div>
+					</div>
+					<input type="number" class="form-control" id="zip" placeholder="postal code" required>
+				</div>
+			</div>
+			<div class="col-auto weather-api-form-element">
+				<label class="sr-only" for="inlineFormInputGroup">country code</label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<div class="input-group-text">
+							<a href="https://www.nationsonline.org/oneworld/country_code_list.htm" target="_blank">Country Codes</a>
+						</div>
+						<input type="text" class="form-control" pattern="[a-zA-Z]+" id="countryZip" placeholder="country code" required>
+					</div>
+				</div>
+			</div>
+			<div class="col-auto weather-api-form-element">
+				<button type="submit" class="btn btn-primary" id="zipSubmit">Submit</button>
+			</div>
+		</div>
+	</form>
+
+
+	<h3 class="d-flex justify-content-center weather-api-form-element" >Output:</h3>
+	<span id="weatherOutput" class="d-flex justify-content-center"></span>
+</div>
+<div class="card-body">
+    <a href="https://github.com/joykm88/dom-manipulation" class="card-links" target="_blank">Source Code</a>
+</div>
+   

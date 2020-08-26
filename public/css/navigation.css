@@ -1,0 +1,112 @@
+/*
+Navigation
+*/
+
+.navbar.fixed-top {
+	margin-right: auto;
+  	margin-left: auto;
+  	max-width: 1200px; 
+	background-color: white;
+	/*border-bottom: 2px solid #747fe0;*/
+	border-bottom: 2px solid #007bff;
+	padding: 0;
+}
+
+#name {
+	/*color: #747fe0;*/
+	color: #007bff;
+	margin-left: ..25rem;
+	padding-bottom: 0;
+	padding-top: 0;
+	font-size: 3em;
+}
+
+.link-anchor {
+    display: block;
+    position: relative;
+    top: -200px;
+    visibility: hidden;
+}
+
+.contact-info {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+/*.link-chevron {
+	visibility: hidden;
+}*/
+
+/*.navbar-toggler.custom:hover .link-chevron {
+	visibility: visible;
+}
+*/
+/*
+Navbar Links
+*/
+
+/*.navbar-toggler.custom {
+	padding-bottom: .75rem;
+	border: none;
+	color: grey;
+	//border-bottom: 5px solid rgb(0,0,0,0);
+}*/
+
+/*.navbar-toggler.custom:hover {
+	//color: #747fe0;
+	color: #007bff;
+	//border-bottom: 5px solid #747fe0;
+}*/
+
+/*a.contact-me {
+	color: grey;
+}*/
+
+/*a.contact-me:hover {
+	//color: #747fe0;
+	color: #007bff;
+	text-decoration: none;
+}*/
+
+
+/*
+Navbar Toggled
+*/
+
+/*.navbar-collapse {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+	// border-bottom: 2px solid #747fe0;
+}*/
+
+/*.dropdown-item {
+	color: grey;
+}
+
+.dropdown-item:focus {
+	background-color: white;
+	color: grey;
+}
+
+.dropdown-item:hover {
+	color: #747fe0;
+	color: #007bff;
+	background-color: white;
+}
+
+.dropdown-item:hover .dropdown-chevron {
+	visibility: visible;
+}*/
+
+/*
+Navbar Scrolled
+*/
+
+/*.navbar.fixed-top.scrolled .navbar-collapse {
+	border-bottom: none;
+}*/
+
+/*.navbar.fixed-top.scrolled {
+    border-bottom: 2px solid #747fe0;
+}*/
