@@ -1,0 +1,19 @@
+/*
+About-me
+*/
+
+.card-title.about-me {
+	margin-top: 1.25rem;
+}
+
+.card.about-me {
+	border: none;
+}
+
+.card-body.about-me {
+	padding-top: 0px;
+}
+
+.about-me-data {
+	font-weight: bold;
+}

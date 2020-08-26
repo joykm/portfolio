@@ -1,106 +1,4 @@
 /*
-Navbar Not Toggled
-*/
-.navbar.fixed-top {
-	margin-right: auto;
-  	margin-left: auto;
-  	max-width: 1200px; 
-	background-color: white;
-	border-bottom: 2px solid #747fe0;
-	padding: 0;
-}
-
-#name {
-	color: #747fe0;
-	margin-left: ..25rem;
-	padding-bottom: 0;
-	padding-top: 0;
-	font-size: 3em;
-}
-
-.dropdown-chevron {
-	visibility: hidden;
-}
-
-.navbar-toggler.custom:hover .dropdown-chevron {
-	visibility: visible;
-}
-
-/*
-Navbar Links
-*/
-
-.navbar-toggler.custom {
-	padding-bottom: .75rem;
-	border: none;
-	color: grey;
-	/*border-bottom: 5px solid rgb(0,0,0,0);*/
-}
-
-.navbar-toggler.custom:hover {
-	color: #747fe0;
-	/*border-bottom: 5px solid #747fe0;*/
-}
-
-a.contact-me {
-	color: grey;
-}
-
-a.contact-me:hover {
-	color: #747fe0;
-	text-decoration: none;
-}
-
-
-/*
-Navbar Toggled
-*/
-
-.navbar-collapse {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 1200px;
-	/*border-bottom: 2px solid #747fe0;*/
-}
-
-.dropdown-item {
-	color: grey;
-}
-
-.dropdown-item:focus {
-	background-color: white;
-	color: grey;
-}
-
-.dropdown-item:hover {
-	color: #747fe0;
-	background-color: white;
-}
-
-.dropdown-item:hover .dropdown-chevron {
-	visibility: visible;
-}
-
-.link-anchor {
-    display: block;
-    position: relative;
-    top: -200px;
-    visibility: hidden;
-}
-
-/*
-Navbar Scrolled
-*/
-
-.navbar.fixed-top.scrolled .navbar-collapse {
-	border-bottom: none;
-}
-
-/*.navbar.fixed-top.scrolled {
-    border-bottom: 2px solid #747fe0;
-}*/
-
-/*
 Content Body
 */
 
@@ -108,36 +6,30 @@ Content Body
   margin-right: auto;
   margin-left: auto;
   margin-top: 8rem;
-  max-width: 1200px; /* or 950px */
+  max-width: 1200px;
   padding: 0;
 }
 
+
 /*
-About Me Card
+Cards
 */
 
-.card.about-me {
-	border: none;
-}
-
-.card-body.about-me {
-	padding-top: 0px;
-}
-
 .card-title {
-	margin: 1.25rem;
-	font-size: 1.5em;
-/*	color: #747fe0;*/
+  margin-top: 6rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.5em;
 }
 
-.contact-info {
-	margin-left: 2rem;
-	margin-right: 2rem;
-
+.card-body {
+  margin-top: .75rem;
+  padding: 0rem;
 }
 
-.about-me-data {
-	font-weight: bold;
+.card-links {
+  margin-right: 2rem;
 }
 
 /*
@@ -159,3 +51,4 @@ Carousels
 .carousel-control-next-icon.light-theme{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+

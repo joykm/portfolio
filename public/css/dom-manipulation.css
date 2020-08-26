@@ -1,0 +1,28 @@
+/*
+Dom Manipulation
+*/
+
+.card.dom-manipulation {
+	background-color: #f6f6f6;
+}
+
+.dom-button {
+	margin-left: .25rem;
+	margin-right: .25rem;
+}
+
+#domTable {
+	margin-top: 1rem;
+	margin-bottom: .25rem;
+}
+
+#upArrow, #leftArrow, #downArrow, #rightArrow, #markCell {
+	margin-top: .25rem;
+	margin-bottom: .25rem;
+}
+
+#clearCells {
+	margin-top: .25rem;
+	margin-bottom: 1rem;
+}
+
