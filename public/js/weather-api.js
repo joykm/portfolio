@@ -14,7 +14,6 @@ function bindButtons(){
             req.addEventListener('load', function() {
                 if(req.status >= 200 && req.status < 400)  {
                     var response = JSON.parse(req.responseText);
-                    // console.log(response)
                     document.getElementById("weatherOutput").innerText = 
                         "Location: " + response.name + ", " + response.sys.country +
                         "\nTemperature: " + response.main.temp + "°F" +

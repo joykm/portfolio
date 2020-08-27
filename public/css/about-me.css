@@ -11,7 +11,9 @@ About-me
 }
 
 .card-body.about-me {
-	padding-top: 0px;
+	margin-top: 0rem;
+	padding-top: 1.25rem;
+	padding-left: 1.25rem;
 }
 
 .about-me-data {

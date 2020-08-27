@@ -29,7 +29,13 @@ Cards
 }
 
 .card-links {
-  margin-right: 2rem;
+  margin-right: .75rem;
+  margin-left: 1.25rem;
+}
+
+.card-links:focus, .card-links:active {
+  border: none;
+  outline: 0;
 }
 
 /*
