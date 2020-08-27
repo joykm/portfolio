@@ -8,7 +8,7 @@ function bindButtons(){
         var req = new XMLHttpRequest();
         var postInput = document.getElementById("postInput");
         
-        req.open("POST", "http://httpbin.org/post", true);
+        req.open("POST", "https://httpbin.org/post", true);
         req.setRequestHeader("Content-Type", "application/json");
         req.addEventListener('load', function() {
             if(req.status >= 200 && req.status < 400) {
