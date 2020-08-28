@@ -28,6 +28,15 @@ Cards
   padding: 0rem;
 }
 
+.card-body .card-text {
+  margin-left: 1.25rem;
+  margin-bottom: 0rem;
+}
+
+.card-body div {
+  padding-top: .75rem;
+}
+
 .card-links {
   margin-right: .75rem;
   margin-left: 1.25rem;
