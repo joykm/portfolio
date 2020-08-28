@@ -19,6 +19,7 @@ Dom Manipulation
 #upArrow, #leftArrow, #downArrow, #rightArrow, #markCell {
 	margin-top: .25rem;
 	margin-bottom: .25rem;
+	/*font-weight: bold;*/
 }
 
 #clearCells {
