@@ -9,6 +9,7 @@ Navigation
 	padding-top: .25rem;
 	padding-bottom: 0rem;
 	border-bottom: 2px solid #007bff;
+	font-family: 'Nunito', sans-serif;
 }
 
 .navbar-brand {
@@ -23,6 +24,8 @@ Navigation
 
 .collapse .navbar-nav .nav-item .nav-link {
 	padding-left: 2rem;
+	font-size: 1rem;
+
 }
 
 .nav-link:focus, .nav-link:active {

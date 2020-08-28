@@ -3,13 +3,13 @@ Content Body
 */
 
 .full-body {
+  font-family: 'Nunito', sans-serif;
   margin-right: auto;
   margin-left: auto;
   margin-top: 8rem;
   max-width: 1200px;
   padding: 0;
 }
-
 
 /*
 Cards
@@ -21,6 +21,7 @@ Cards
   margin-right: 1.25rem;
   margin-bottom: 1.25rem;
   font-size: 1.5em;
+  font-weight: bold;
 }
 
 .card-body {
