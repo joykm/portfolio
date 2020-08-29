@@ -1,31 +1,92 @@
 <div class="row d-flex justify-content-center" id="about-me">
     <div class="col-sm-12">
         <div class="card about-me">
-
             <h5 class="card-title about-me">About me</h5>
             <div class="card-body about-me border">
-                <p class="about-me-text">I am studying Computer Science to make a career change from Finance into Software Engineering. 
-                    While working in Finance I learned that I really enjoy programming so I chose to pursue it part time. After careful consideration I decided to return to school full time
-                    in starting in the Spring 2020 semester. 
-                </p>
-                
-                <p class="about-me-data mb-0">Location</p>
-                <p>Austin, TX</p>
-                        
-                <p class="about-me-data mb-0">School</p>
-                <p>Oregon State University</p>
+                <img class="d-block w-100" src="img/about-me/about-me-1.jpg" alt="About me image">
 
-                <p class="about-me-data mb-0">Completed Courses</p>
-                <ul class="pl-4">
-                    <li class="courses">Data Structures (Python)</li>
-                    <li class="courses">Software Engineering I (Javascript, HTML, CSS)</li>
-                    <li class="courses m-0">Computer Architecture and Assembly Language (Assembly)</li>                   
-                    <li class="courses">Web Development (Javascript, HTML, CSS)</li>
-                    <li class="courses">Discrete Structures in CS</li>
-                    <li class="courses">Intro to Computer Science II (C++)</li>
-                    <li class="courses">Intro to Computer Science I (C++)</li>
-                </ul>
+                {{!-- 576px and up --}}
+                <span class="textbox-overlay d-none d-sm-block d-md-none">
+                    <span class="textbox-body">
+                        <p class="about-me-subtitle">My Story</p>
+                        <p class="about-me-text"> 
+                            Hi, I'm Kevin and I am a full time student making a career change from Finance 
+                            into Software Engineering. 
+                        </p>
+
+                        <p class="about-me-subtitle">Current Location</p>
+                        <p class="about-me-text">Austin, TX</p>
+                                    
+                        <p class="about-me-subtitle">School</p>
+                        <p class="about-me-text">Oregon State University</p>
+                    </span>
+                </span>
+
+                {{!-- 768px and up --}}
+                <span class="textbox-overlay d-none d-md-block d-lg-none">
+                    <span class="textbox-body">
+                        <p class="about-me-subtitle">My Story</p>
+                        <p class="about-me-text"> 
+                            Hi, I'm Kevin and I am a full time student making a career change from Finance 
+                            into Software Engineering.  
+                        </p>
+
+                        <p class="about-me-text"> While learning Python to automate tedious tasks and better manipulate data in my previous roles,
+                            I learned that I really enjoy programming. 
+                        </p>
+
+                        <p class="about-me-subtitle">Current Location</p>
+                        <p class="about-me-text">Austin, TX</p>
+                                    
+                        <p class="about-me-subtitle">School</p>
+                        <p class="about-me-text">Oregon State University</p>
+                    </span>
+                </span>
+
+                 {{!-- 992px and up --}}
+                <span class="textbox-overlay d-none d-lg-block">
+                    <span class="textbox-body">
+                        <p class="about-me-subtitle">My Story</p>
+                        <p class="about-me-text"> 
+                            Hi, I'm Kevin and I am a full time student making a career change from Finance 
+                            into Software Engineering.
+                        </p>
+
+                        <p class="about-me-text"> 
+                            While learning Python to automate tedious tasks and better manipulate data in my previous roles,
+                            I learned that I really enjoy programming. 
+                        </p>
+
+                        <p class="about-me-text"> 
+                            I chose to pursue computer science full time in early 2020.
+                        </p>
+
+                        <p class="about-me-subtitle">Current Location</p>
+                        <p class="about-me-text">Austin, TX</p>
+                                    
+                        <p class="about-me-subtitle">School</p>
+                        <p class="about-me-text">Oregon State University</p>
+                    </span>
+                    
+                </span>
             </div>
         </div>
     </div>
+</div>
+
+<div class="card-body about-me-body-xs d-block d-sm-none">
+    <p class="card-text about-me-text"> 
+        Hi, I'm Kevin and I am a full time student making a career change from Finance 
+        into Software Engineering. 
+    </p>
+</div>
+
+{{!-- Larger than XS Screens--}}
+<div class="card-body d-none d-sm-block">
+	<p class="card-text">Inca Trail, Peru - September 2019</p>
+</div>
+
+{{!-- Smaller than SM screens --}}
+<div class="card-body d-block d-sm-none">
+	<p class="card-text text-right">Inca Trail, Peru - September 2019</p>
 </div>
