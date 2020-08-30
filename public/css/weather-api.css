@@ -10,10 +10,6 @@ Weather API
 	margin-top: .25rem;
 }
 
-.weather-api-form-element {
-	margin-top: .5rem;
-}
-
 #weatherOutput {
 	height: 9.5rem;
 }
