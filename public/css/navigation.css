@@ -8,16 +8,23 @@ Navigation
 	background-color: white;
 	padding-top: .25rem;
 	padding-bottom: 0rem;
+	padding-right: 0rem;
+	padding-left: 0rem;
 	border-bottom: 2px solid #007bff;
 	font-family: 'Nunito', sans-serif;
+}
+
+.navbar-toggler {
+	padding-right: 0rem;
 }
 
 .navbar-brand {
 	color: #007bff;
 	font-size: 1.75rem;
+	padding-left: 1rem;
 }
 
-.navbar-brand:focus, .navbar-brad:active {
+.navbar-brand:focus, .navbar-brad:active, .dropdown-toggle:focus, .dropdown-toggle:active, .nav-link:focus, .nav-link:active {
 	border: none;
 	outline: 0;
 }
@@ -28,145 +35,16 @@ Navigation
 
 }
 
-.nav-link:focus, .nav-link:active {
-	border: none;
-	outline: 0;
-}
-
 .collapse {
 	margin-bottom: 0rem;
 }
 
 .dropdown-toggle {
-	font-size: 1.1rem;
+	font-size: 1rem;
 	color: #007bff;
+	padding-right: 1.25rem;
 }
 
 .navbar-nav {
 	padding-right: 1.25rem;
 }
-
-.nav-chevron {
-	/*visibility: hidden;*/
-}
-
-
-/*.navbar.fixed-top {*/
-/*	margin-right: auto;
-  	margin-left: auto;
-  	max-width: 1200px; 
-	background-color: white;
-	/*border-bottom: 2px solid #747fe0;*/
-/*	border-bottom: 2px solid #007bff;
-	padding: 0;*/
-/*}*/
-
-/*#name {*/
-	/*color: #747fe0;*/
-/*	color: #007bff;
-	margin-left: ..25rem;
-	margin-bottom: 0rem;
-	margin-right: 0rem;
-	padding-bottom: 0rem;
-	padding-top: 0rem;
-	font-size: 3rem;*/
-/*}
-
-.contacts-span {
-	margin-bottom: .5rem;
-}
-*/
-/*.contact-info {*/
-/*	margin-left: 1rem;
-	margin-right: 1rem;
-	font-size: 1rem;
-	/*font-size: 1.2rem;*/
-/*}*/
-
-
-/*.link-anchor {
-    display: block;
-    position: relative;
-    top: -200px;
-    visibility: hidden;
-    margin-bottom: 1rem;
-}*/
-
-
-/*.link-chevron {
-	visibility: hidden;
-}*/
-
-/*.navbar-toggler.custom:hover .link-chevron {
-	visibility: visible;
-}
-*/
-/*
-Navbar Links
-*/
-
-/*.navbar-toggler.custom {
-	padding-bottom: .75rem;
-	border: none;
-	color: grey;
-	//border-bottom: 5px solid rgb(0,0,0,0);
-}*/
-
-/*.navbar-toggler.custom:hover {
-	//color: #747fe0;
-	color: #007bff;
-	//border-bottom: 5px solid #747fe0;
-}*/
-
-/*a.contact-me {
-	color: grey;
-}*/
-
-/*a.contact-me:hover {
-	//color: #747fe0;
-	color: #007bff;
-	text-decoration: none;
-}*/
-
-
-/*
-Navbar Toggled
-*/
-
-/*.navbar-collapse {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 1200px;
-	// border-bottom: 2px solid #747fe0;
-}*/
-
-/*.dropdown-item {
-	color: grey;
-}
-
-.dropdown-item:focus {
-	background-color: white;
-	color: grey;
-}
-
-.dropdown-item:hover {
-	color: #747fe0;
-	color: #007bff;
-	background-color: white;
-}
-
-.dropdown-item:hover .dropdown-chevron {
-	visibility: visible;
-}*/
-
-/*
-Navbar Scrolled
-*/
-
-/*.navbar.fixed-top.scrolled .navbar-collapse {
-	border-bottom: none;
-}*/
-
-/*.navbar.fixed-top.scrolled {
-    border-bottom: 2px solid #747fe0;
-}*/

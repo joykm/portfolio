@@ -3,26 +3,19 @@
 <div class="card post-request d-flex w-100">
 	
 	<form id="post-request">
-		<div class="form-row align-items-center justify-content-center">
-			<div class="col-auto post-request-form-element">
-				<label class="sr-only" for="inlineFormInput">string</label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-						<div class="input-group-text">
-							Text
-						</div>
-					</div>
-					<input type="text" class="form-control" id="postInput" size="50" placeholder="...enter text, posts to httpbin.org, returns entered text">
-				</div>
-			</div>
-			<div class="col-auto post-request-form-element">
-				<button type="submit" class="btn btn-primary" id="postSubmit">Submit</button>
-			</div>
+		<div class="col-auto form-element form-input">
+			<label for="#postInput">Text</label>
+			<input type="text" class="form-control" id="postInput" size="50" placeholder="enter text, posts to httpbin.org, returns entered text">
+		</div>
+		<div class="col-auto form-element d-flex justify-content-center">
+			<button type="submit" class="btn btn-primary" id="postSubmit">Submit</button>
 		</div>
 	</form>
-	<h3 class="d-flex justify-content-center post-request-form-element" >Output:</h3>
+
+	<h3 class="d-flex justify-content-center form-element" >Output:</h3>
 	<span id="postOutput" class="d-flex justify-content-center"></span>    
 </div>
+
 <div class="card-body">
 	<p class="card-text">HTML, CSS, Bootstrap, Javascript</p>
 	<div>

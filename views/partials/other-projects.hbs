@@ -1,7 +1,8 @@
 <h5 class="link-anchor" id="other-projects"></h5>
 <h5 class="card-title">Other Projects</h5>
 <div class="card other-projects d-flex w-100">
-    <table class="table table-hover">
+    {{!-- 576px and up --}}
+    <table class="table table-hover d-none d-sm-block">
         <thead>
             <tr>
             <th scope="col">Project</th>
@@ -35,24 +36,65 @@
                 <td>Implementation of a Stack to check balanced parentheses (Python)</td>
                 <td><a href="https://github.com/joykm88/stack-balanced-parentheses" target="_blank">github.com/joykm88/stack-balanced-parentheses</a></td>
             </tr>
-
             <tr>
                 <td>Low-Level I/O</td>
                 <td>Design, implement, and call low-level I/O procedures (Assembly)</td>
                 <td><a href="https://github.com/joykm88/low-level-IO" target="_blank">github.com/joykm88/low-level-IO</a></td>
             </tr>
-
             <tr>
                 <td>Indirect Addressing</td>
                 <td>Fill an array with random numbers, perfom a selection sort, and display the array (Assembly)</td>
                 <td><a href="https://github.com/joykm88/indirect-addressing" target="_blank">github.com/joykm88/indirect-addressing</a></td>
             </tr>
-
-
             <tr>
                 <td>Text Adventure</td>
                 <td>Multi file text adventure (C++)</td>
                 <td><a href="https://github.com/joykm88/text-adventure" target="_blank">github.com/joykm88/text-adventure</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    {{!-- 575px and down --}}
+    <table class="table table-hover d-block d-sm-none">
+        <thead>
+            <tr>
+            <th scope="col">Project</th>
+            <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://github.com/joykm88/portfolio" target="_blank">Portfolio</a></td>
+                <td>Personal website for portfolio</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/joykm88/hash-map" target="_blank">Hash Map</a></td>
+                <td>Full implementation of a Hash Map (Python)</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/joykm88/binary-search-tree" target="_blank">Binary Search Tree</a></td>
+                <td>Implementation of a Binary Search Tree (Python)</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/joykm88/deque-bag-adt" target="_blank">Deque and Bag ADT's</a></td>
+                <td>Implementation of the Deque and Bag ADT's with a Singly Linked List and the Deque ADT with a Circularly Doubly Linked List (Python)</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/joykm88/stack-balanced-parentheses" target="_blank">Stack</a></td>
+                <td>Implementation of a Stack to check balanced parentheses (Python)</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="https://github.com/joykm88/low-level-IO" target="_blank">Low-Level I/O</a></td>
+                <td>Design, implement, and call low-level I/O procedures (Assembly)</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/joykm88/indirect-addressing" target="_blank">Indirect Addressing</a></td>
+                <td>Fill an array with random numbers, perfom a selection sort, and display the array (Assembly)</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/joykm88/text-adventure" target="_blank">Text Adventure</a></td>
+                <td>Multi file text adventure (C++)</td>
             </tr>
         </tbody>
     </table>

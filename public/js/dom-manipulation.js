@@ -2,7 +2,11 @@ var table = document.createElement("table");
 table.setAttribute("id", "domTable");
 document.getElementById("dom-manipulation-table").appendChild(table);
 
-table.style.width = "50%";
+if ($(window).width() < 576) {
+    table.style.width = "100%";
+} else {
+    table.style.width = "75%";
+}
 
 var tHeader = document.createElement("thead");
 table.appendChild(tHeader);
@@ -152,7 +156,7 @@ function moveRight() {
 function colorCell() {
     selected.style.backgroundColor = "#007bff";
     selected.style.color = "white";
-    selected.fontWeight = bold;
+    selected.style.fontWeight = "bold";
 }
 
 function resetCells() {
