@@ -45,7 +45,7 @@
  - `SSL On`
  - `Select "Foward"`
  - You should now see a preview of your app, and the settings you just selected for forwarding
- - > `Note:` if you see a warning regarding CNAME, you must remove the fowarding address that matches your DNS CNAME item
+ > `Note:` if you see a warning regarding CNAME, you must remove the fowarding address that matches your DNS CNAME item
   
  
 
