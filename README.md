@@ -11,7 +11,7 @@
 > This generates a DNS target for your hosting platform
 
 - Heroku > portfolio > Settings > under "Domains" click "Add Domain"
- - Type your www.<domain>.com domain name
+ - Type your www.`domain`.com domain name
  - Copy the DNS Target for your hosting platform
 
 ### Google DNS Steps:
