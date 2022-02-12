@@ -1,4 +1,11 @@
 /*
+    When running locally, if you see "Secure Connection Failed"
+    or "Error code: SSL_ERROR_RX_RECORD_TOO_LONG"
+    or something similar, comment out the code
+    under "Enable Forced HTTPS".
+*/
+
+/*
 Dependencies
 */
 
@@ -14,7 +21,6 @@ const app = express()
 /*
 Configure Express Server
 */
-// app.enable('trust proxy'); 
 
 app.engine('hbs', exphbs(
     {
@@ -28,14 +34,23 @@ app.use(express.static('public'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false}))
 
-//app.use(function(request, response, next) {
+/*
+Enable Forced HTTPS on visit to HTTP
+Note: This must be commented out to run locally
+*/
 
-//     if (process.env.NODE_ENV != 'development' && !request.secure) {
-//        return response.redirect("https://" + request.headers.host + request.url);
-//     }
 
-//     next();
-// }) 
+app.enable('trust proxy'); 
+
+app.use(function(request, response, next) {
+
+    if (process.env.NODE_ENV != 'development' && !request.secure) {
+        return response.redirect("https://" + request.headers.host + request.url);
+    }
+
+    next();
+}) 
+
 
 /*
 Setup Local Port
