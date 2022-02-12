@@ -3,13 +3,15 @@
 ## Enabling Custom Domain:
 
 ### Purchase Domain:
-If not already owned, purchase a custom domain (e.g. google domains)
-Note: Some hosting sites do not support CNAME forwading for root (google domains is one of these)
+> If not already owned, purchase a custom domain (e.g. google domains)
+> Note: Some hosting sites do not support CNAME forwading for root (google domains is one of these)
 
 ### Heroku Steps:
-Visit heroku > portfolio > settings > under "Domains" click "Add Domain"
-Type your domain name in
-Copy the DNS Target
+> This generates a DNS target for your hosting platform
+
+- Heroku > portfolio > Settings > under "Domains" click "Add Domain"
+ - Type your www.<custom domain>.com domain name
+ - Copy the DNS Target for your hosting platform
 
 ### Google DNS Steps:
 > This allows your custom domain to connect to your Heroku app
