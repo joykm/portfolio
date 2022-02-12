@@ -40,12 +40,12 @@
   - Leave the blank box blank (this will default to the naked address of your domain)
 - Under "Forward to" type the full `https://www<area>.domain.com`
 - Expand "Advanced options" and select the following options:
- - `Permanent redirect (301)`
- - `Forward path`
- - `SSL On`
- - `Select "Foward"`
- - You should now see a preview of your app, and the settings you just selected for forwarding
- > `Note:` if you see a warning regarding CNAME, you must remove the fowarding address that matches your DNS CNAME item
+  - `Permanent redirect (301)`
+  - `Forward path`
+  - `SSL On`
+  - `Select "Foward"`
+  - You should now see a preview of your app, and the settings you just selected for forwarding
+  > `Note:` if you see a warning regarding CNAME, you must remove the fowarding address that matches your DNS CNAME item
   
  
 
