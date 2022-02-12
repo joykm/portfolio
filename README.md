@@ -12,16 +12,18 @@ Type your domain name in
 Copy the DNS Target
 
 ### Google DNS Steps:
-This allows www.kevin-joy.com to connect to my Heroku app
+> This allows www.kevin-joy.com to connect to my Heroku app
 
-Google Domains > DNS > Custom records > Manage custom records
-Host Name: www.kevin-joy.com (you can not put root domain here)
-Type: CNAME
-TTL: 1 hour (default)
-Data: <paste DNS target copied from Heroku>
+Steps:
+- Google Domains > DNS > Custom records > Manage custom records
+- **Host Name:** www.kevin-joy.com (you can not put root domain here)
+- **Type:** CNAME
+- **TTL:** 1 hour (default)
+- **Data:* <DNS target copied from Heroku>
   
 ### Google Forwarding Steps:
-This allows kevin-joy.com to forward to https://www.kevin-joy.com instead of http://www.kevin-joy.com
+> This allows kevin-joy.com to forward to https://www.kevin-joy.com instead of http://www.kevin-joy.com
+Note: This does not prevent a user from visiting http://www.kevin-joy.com directly. This is fixed in app.js.
   
 Google Domains > Website > Set up forwarding > under "Forward from" click "Edit"
 Two boxes will appear, one blank, one with "www" in it.
@@ -35,7 +37,7 @@ Expand "Advanced options" and select the following options:
 Select "Foward"
 You should now see a preview of your app, and the settings you just selected for forwarding (e.g. Forward from: kevin-joy.com)
   
- Note: This does not prevent a user from visiting http://www.kevin-joy.com directly. This is fixed in app.js.
+ 
 
 
 
