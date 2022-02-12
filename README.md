@@ -4,35 +4,35 @@
 
 ### Purchase Domain:
 > If not already owned, purchase a custom domain (e.g. google domains)
+
 > Note: Some hosting sites do not support CNAME forwading for root (google domains is one of these)
 
 ### Heroku Steps:
 > This generates a DNS target for your hosting platform
 
 - Heroku > portfolio > Settings > under "Domains" click "Add Domain"
- - Type your www.<custom domain>.com domain name
+ - Type your www.<domain>.com domain name
  - Copy the DNS Target for your hosting platform
 
 ### Google DNS Steps:
 > This allows your custom domain to connect to your Heroku app
-
-Steps:
+ 
 - Google Domains > DNS > Custom records > Manage custom records
- - **Host Name:** www.<custom domain>.com (you can not put root domain here)
+ - **Host Name:** www.<domain>.com (you can not put root domain here)
  - **Type:** CNAME
  - **TTL:** 1 hour (default)
  - **Data:* <DNS target copied from Heroku>
   
 ### Google Forwarding Steps:
-> This allows kevin-joy.com to forward to https://www.kevin-joy.com instead of http://www.kevin-joy.com
-Note: This does not prevent a user from visiting http://www.kevin-joy.com directly. This is fixed in app.js.
+> This allows your naked domain address to forward to https://www.<domain>.com instead of http
  
-Steps:
+> Note: This does not prevent a user from visiting http://www.<domain>.com directly. This is addressed in app.js.
+ 
 - Google Domains > Website > Set up forwarding > under "Forward from" click "Edit"
-- Two boxes will appear, one blank, one with "www" in it
- - Delete the "www" box (forwarding www.<custom domain>.com will interfere with the DNS CNAME step above)
- - Leave the blank box blank (this will default to the naked address of your domain)
-- Under "Forward to" type the full https://www.<custom domain>.com
+ - Two boxes will appear, one blank, one with "www" in it
+  - Delete the "www" box (forwarding www.<custom domain>.com will interfere with the DNS CNAME step above)
+  - Leave the blank box blank (this will default to the naked address of your domain)
+- Under "Forward to" type the full https://www.<domain>.com
 - Expand "Advanced options" and select the following options:
  - Permanent redirect (301)
  - Forward path
