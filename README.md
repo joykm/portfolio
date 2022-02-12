@@ -24,10 +24,10 @@
 > This allows your custom domain to connect to your Heroku app
  
 - Google Domains > DNS > Custom records > Manage custom records
-  - **Host Name:** `www<area>.domain.com (you can not put root domain here)`
+  - **Host Name:** `www<area>.domain.com` (you can not put root domain here)
   - **Type:** `CNAME`
-  - **TTL:** `1 hour (default)`
-  - **Data:** `DNS target copied from Heroku`
+  - **TTL:** `1 hour` (default)
+  - **Data:** `DNS Target` (copied from Heroku)
   
 ### Google Forwarding Steps:
 > This allows your naked domain address to forward to `https://www<area>.domain.com` instead of http
