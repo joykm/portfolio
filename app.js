@@ -14,7 +14,7 @@ const app = express()
 /*
 Configure Express Server
 */
-app.enable('trust proxy');
+// app.enable('trust proxy'); 
 
 app.engine('hbs', exphbs(
     {
@@ -28,14 +28,14 @@ app.use(express.static('public'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false}))
 
-app.use(function(request, response, next) {
+//app.use(function(request, response, next) {
 
-    if (process.env.NODE_ENV != 'development' && !request.secure) {
-       return response.redirect("https://" + request.headers.host + request.url);
-    }
+//     if (process.env.NODE_ENV != 'development' && !request.secure) {
+//        return response.redirect("https://" + request.headers.host + request.url);
+//     }
 
-    next();
-})
+//     next();
+// }) 
 
 /*
 Setup Local Port
