@@ -6,7 +6,7 @@
 > Note: This code currently prevents the website from being visited locally. Comment it out when
 > hosting locally for now.
 
-## Enabling Custom Domain:
+## Enabling A Custom Domain:
 
 ### Purchase Domain:
 > If not already owned, purchase a custom domain (e.g. google domains)
